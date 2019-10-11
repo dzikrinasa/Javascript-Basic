@@ -1,7 +1,7 @@
 
 //deklarasi variable
 //string
-var x = "Javascript ";
+var x = "Javascript ";//global var
 
 //metode string
 //var.length Menghitung panjang karakter
