@@ -6,7 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<style>
+.merah{
+    background: red;
+}
+.black{
+    border: 2px solid black;
+}
+</style>
+<body onload="alert('sudah selesai')">
     <h1>DOM Javascript</h1>
 
     <div id="box1"></div>
@@ -24,6 +32,11 @@
     <div id="box2">
         <div id="p1">Paragraf</div>
     </div>
+    <br>
+    <img onclick="ubah()" src="c.png" width="300" id="gambar" class="black">
+    <input type="text" value="nama" id="input"> <br>
+    <input type="submit" id="submit">
+    nama : <span id="p1"></span>
 </body>
 <script src="main.js"></script>
 </html>
